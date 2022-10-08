@@ -42,6 +42,8 @@
 
     video {
       border: 10px solid #fff;
+       width:600px;
+      height:600px;
 
     }
 
@@ -52,6 +54,20 @@
       padding: 20px 30px;
       box-shadow: 5px 5px 7px rgba(0, 0, 0, 1);
     }
+      @media(max-width:767px){
+      .webcam {
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+    video {
+      border: 10px solid #fff;
+      width:300px;
+      height:400px;
+
+    }
+    }
   </style>
 </head>
 
@@ -61,7 +77,7 @@
     <a href="profile.html" class="btn btn-success">
       Go Back to the Page
     </a>
-    <video id="video" width="600" height="600" autoplay>
+    <video id="video" autoplay>
     </video>
     <div class="text-right">
       <a href="#!" class="btn btn-success" id="btn" onClick="start()">
