@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBORG</title>
+    <link rel="stylesheet" href="css/browse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- <div class="preload">
+        <h1>Loading</h1>
+        <div class="loader"> </div>
+    </div> -->
+
+    <header>
+        <div class="container">
+            <div class="head" id="head">
+                <div class="image">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search">
+                    <form class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search" type="text" class="input" placeholder="Games..." autocomplete="off"/>
+                    </form>
+                    <div class="results-container">
+                        <ul class="results-list" id="list"></ul>
+                     </div>
+                </div>
+                <nav>
+                    <div class="menu-bar">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <div class="wrapper">
+                        <div class="search-input">
+                          <a href="" target="_blank" hidden></a>
+                          <input id="search" type="text" placeholder="Games.." autocomplete="off">
+                          <div class="autocom-box">
+                            <!-- here list are inserted from javascript -->
+                          </div>
+                          <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                      </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class ="active" href="">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="streams.html">Streams</a></li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                            <a href="profile.html" class="profile">
+                                <img src="img/téléchargement.jpeg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="box">
+                <div class="flex">
+                    <div class="step-1">
+                        <h1><span>Featured</span> Games</h1>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Thor_ God of Thunder by Sherilynn Gould - Superhero.jpeg" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/30 Pictures That Only Older People Will Find Nostalgic By Rachid Lotf.jpeg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/A perfect HD neon themed traced Thor wallpaper with black overalls so it doesn't hurt the eyes_ - Wallpaper.jpeg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/- milo.jpeg" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/1dc15f87-4c09-4dfa-9d1d-597ac25555c1.jpeg" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Overwatch Sombra Purple Game Hero Illustration Art iPhone 8 Wallpapers.jpeg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/9c7b6e1b-3885-4351-85ce-086d1f20c2db.jpeg" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-2">
+                        <h1><span>Top</span> Downloaded</h1>
+                        <div class="tab flex">
+                            <div class="image">
+                                <img src="img/img1.jpeg" alt="">
+                            </div>
+                            <div class="text">
+                                <b>Fortnite</b>
+                                <small>Sandbox</small>
+                                <p><span><i class="fa-solid fa-star" id="first"></i>&nbsp; 4.9</span>&nbsp; <span><i
+                                            class="fa-solid fa-download" id="second"></i>&nbsp; 2.3M</span></p>
+                            </div>
+                            <div class="icon">
+                                <a href="https://dayz.en.softonic.com/download" target="_blank"> <i class="fa-solid fa-download"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="image">
+                                <img src="img/Far Cry 4 announced for Xbox One and PS4, plus last gen.jpeg" alt="">
+                            </div>
+                            <div class="text">
+                                <b>Fortnite</b>
+                                <small>Sandbox</small>
+                                <p><span><i class="fa-solid fa-star" id="first"></i>&nbsp; 4.9</span>&nbsp; <span><i
+                                            class="fa-solid fa-download" id="second"></i>&nbsp; 2.3M</span></p>
+                            </div>
+                            <div class="icon">
+                                <a href="https://dayz.en.softonic.com/download" target="_blank"> <i class="fa-solid fa-download"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="image">
+                                <img src="img/Call of Duty_ WW2 Wallpapers shared by Sony.jpeg" alt="">
+                            </div>
+                            <div class="text">
+                                <b>Fortnite</b>
+                                <small>Sandbox</small>
+                                <p><span><i class="fa-solid fa-star" id="first"></i>&nbsp; 4.9</span>&nbsp; <span><i
+                                            class="fa-solid fa-download" id="second"></i>&nbsp; 2.3M</span></p>
+                            </div>
+                            <div class="icon">
+                                <a href="https://dayz.en.softonic.com/download" target="_blank"> <i class="fa-solid fa-download"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="btn">
+                            <a href="https://en.softonic.com/s/games" target="_blank">View All Games</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <h1><span> How To Start Your</span> Live Stream</h1>
+                    <div class="grid1">
+                        <div class="stream1">
+                            <img src="img/service-01.jpg" alt="">
+                            <h1>Go To Your Profile</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Tenetur eius nulla iure ullam eaque sint nesciunt architecto vel deleniti mollitia.
+                            </p>
+                        </div>
+                        <div class="stream1">
+                            <img src="img/service-02.jpg" alt="">
+                            <h1>Live Stream Button</h1>
+                            <p>If you wish to support us, you can make a
+                                 small contribution via PayPal to info [at] templatemo.com
+                            </p>
+                        </div>
+                        <div class="stream1">
+                            <img src="img/service-03.jpg" alt="">
+                            <h1>You Are Live</h1>
+                            <p>You are not allowed to redistribute this template's 
+                                downloadable ZIP file on any other template collection website.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="profile.html">Go To Profile</a>
+                </div>
+                <div class="box3">
+                    <h1><span> Most Popular</span> Live Stream</h1>
+                    <div class="grid2">
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/16445892_140Z_2106.w023.n001.624B.p1.624.jpg" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/arpgi.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>LunaMa</h3>
+                                    <h1>CS-GO 36 Hours Live Stream</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/for.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/le.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>KenganC</h3>
+                                    <h1>Just Talking With Fans</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/So I Hacked My Little Brother's Fortnite Account___.jfif " alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/person.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>Areluwa</h3>
+                                    <h1>Maybe Nathej Allnight'</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/prettiest mf.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/Long Straight Hair.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>GangTm</h3>
+                                    <h1>Live Streaming Till Morning</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="streams.html">Discover All Streams</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer"> Copyright © 2022 All rights reserved.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/browse.js"></script>
+</body>
+
+</html>

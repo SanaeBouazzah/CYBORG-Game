@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBORG</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- <div class="preload">
+        <h1>Loading</h1>
+        <div class="loader"> </div>
+    </div> -->
+    <header>
+        <div class="container">
+            <div class="head" id="head">
+                <div class="image">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search">
+                    <form class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search" type="text" class="input" placeholder="Games..." autocomplete="off" />
+                    </form>
+                    <div class="results-container">
+                        <ul class="results-list" id="list"></ul>
+                    </div>
+                </div>
+                <nav>
+                    <div class="menu-bar">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <div class="wrapper">
+                        <div class="search-input">
+                            <a href="" target="_blank" hidden></a>
+                            <input id="search" type="text" placeholder="Games.." autocomplete="off">
+                            <div class="autocom-box">
+                                <!-- here list are inserted from javascript -->
+                            </div>
+                            <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="streams.html">Streams</a></li>
+                        <li>
+                            <a href="">Profile</a>
+                            <a href="" class="profile">
+                                <img src="img/téléchargement.jpeg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <div class="box">
+                <div class="wrapp">
+                    <div class="flex roll">
+                        <div class="image">
+                            <img src="img/téléchargement.jpeg" alt="" style="border-radius: 23px;">
+                        </div>
+                        <div class="text">
+                            <div class="toggle">
+                                <input type="checkbox" name="" id="">
+                                <label for="" class="off">Off</label>
+                                <label for="" class="on">On</label>
+                            </div>
+                            <h2>Alan Smithee</h2>
+                            <p>You Haven't Gone Live yet. Go Live By Touching The Button Below.</p>
+                            <a href="webcam.html " target="_blank" id="button">start live Stream</a>
+                        </div>
+                        <div class="tab">
+                            <div class="flex">
+                                <p>Games Downloaded</p>
+                                <span>3</span>
+                            </div>
+                            <hr>
+                            <div class="flex">
+                                <p>Friends Online</p>
+                                <span>16</span>
+                            </div>
+                            <hr>
+                            <div class="flex">
+                                <p>Live Streams</p>
+                                <span>None</span>
+                            </div>
+                            <hr>
+                            <div class="flex">
+                                <p>Clips</p>
+                                <span>29</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h1>You're Most Popular <span>Clips</span></h1>
+                    <div class="grid">
+                        <div class="group">
+                            <div class="pic">
+                                <img src="img/cabello.jfif" alt="">
+                                <div class="overlay">
+                                    <a href="https://www.youtube.com/watch?v=rjKxRdfIgjs" target="_blank"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="flex para">
+                                <p>First Clip</p>
+                                <span><i class="fa fa-eye"></i> 250</span>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <div class="pic">
+                                <img src="img/rayan.jfif" alt="">
+                                <div class="overlay">
+                                    <a href="https://www.youtube.com/watch?v=0pO4N-RbZuw" target="_blank"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="flex para">
+                                <p>First Clip</p>
+                                <span><i class="fa fa-eye"></i> 250</span>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <div class="pic">
+                                <img src="img/niki w space buns !!.jfif" alt="">
+                                <div class="overlay">
+                                    <a href="https://www.youtube.com/watch?v=IFjqGhwx0bA" target="_blank"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="flex para">
+                                <p>First Clip</p>
+                                <span><i class="fa fa-eye"></i> 250</span>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <div class="pic">
+                                <img src="img/gime.png" alt="">
+                                <div class="overlay">
+                                    <a href="https://www.youtube.com/watch?v=m_EZurCJr44" target="_blank"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="flex para">
+                                <p>First Clip</p>
+                                <span><i class="fa fa-eye"></i> 250</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show">
+                        <a href="" id="btn" class="click">Lead More Clips</a>
+                    </div>
+                </div>
+                <div class="box3" id="box3">
+                    <h1><span>Your Gaming</span>Library</h1>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Far Cry 4 announced for Xbox One and PS4, plus last gen.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div>
+                        </div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div>
+                        </div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div>
+                        </div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div>
+                        </div>
+                        <div class="step5"><a href="https://www.youtube.com/watch?v=rjKxRdfIgjs" target="_blank">Download</a></div>
+                    </div>
+                    <div class="row">
+                        <hr>
+                    </div>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Call of Duty_ WW2 Wallpapers shared by Sony.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div>
+                        </div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div>
+                        </div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div>
+                        </div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div>
+                        </div>
+                        <div class="step5"><a href="https://www.youtube.com/watch?v=rjKxRdfIgjs" target="_blank">Download</a></div>
+                    </div>
+                    <div class="row">
+                        <hr>
+                    </div>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Just Completed Far Cry 3 What A Journey_.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div>
+                        </div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div>
+                        </div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div>
+                        </div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div>
+                        </div>
+                        <div class="step5"><a href="https://www.youtube.com/watch?v=rjKxRdfIgjs" target="_blank">Download</a></div>
+                    </div>
+                </div>
+                <p class="footer"> Copyright © 2022 All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/profile.js"></script>
+</body>
+
+</html>

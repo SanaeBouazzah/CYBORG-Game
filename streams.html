@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBORG</title>
+    <link rel="stylesheet" href="css/streams.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+     <!-- <div class="preload">
+        <h1>Loading</h1>
+        <div class="loader"> </div>
+    </div> -->
+    <header>
+        <div class="container">
+            <div class="head" id="head">
+                <div class="image">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search">
+                    <form class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search" type="text" class="input" placeholder="Games..." autocomplete="off"/>
+                    </form>
+                    <div class="results-container">
+                        <ul class="results-list" id="list"></ul>
+                     </div>
+                </div>
+                <nav>
+                    <div class="menu-bar">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <div class="wrapper">
+                        <div class="search-input">
+                          <a href="" target="_blank" hidden></a>
+                          <input id="search" type="text" placeholder="Games.." autocomplete="off">
+                          <div class="autocom-box">
+                            <!-- here list are inserted from javascript -->
+                          </div>
+                          <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                      </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a class="active" href="">Streams</a></li>
+                        <li class="roll">
+                            <a href="profile.html">Profile</a>
+                            <a href="profile.html" class="profile">
+                                <img src="img/téléchargement.jpeg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="box">
+                <div class="flex">
+                    <div class="step-1">
+                        <h1><span>Live</span> Streams</h1>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/S o f i a.jfif" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Kumpulan Wallpaper Mobile Legend Maret 2022.jfif"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Ling Collector Skin Wallpaper _ Mobile Legends Bang Bang.jfif"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/fa.jfif" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Pretty Girl iPhone Wallpapers.jfif" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/Overwatch Sombra Purple Game Hero Illustration Art iPhone 8 Wallpapers.jpeg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="img/9c7b6e1b-3885-4351-85ce-086d1f20c2db.jpeg" alt="">
+                                        <div class="overlay">
+                                            <span>2.4K Streaming</span>
+                                        </div>
+                                    </div>
+                                    <div class="first flex">
+                                        <h2>Gamer</h2>
+                                        <span><i class="fa-solid fa-star" id="first"></i> 4.8</span>
+                                    </div>
+                                    <div class="second flex">
+                                        <span>249K Downloads</span>
+                                        <span><i class="fa-solid fa-download" id="second"></i> 2.3M</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-2">
+                        <h1><span>Top</span> Streamers</h1>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>01</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/person.jfif" alt=""">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> Keng</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV"><span id="fol">Follow</span><i id="myDIV" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>02</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/Long Straight Hair.jfif" alt="">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> LahutaM</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV2"><span id="fol2">Follow</span><i id="myDIV2" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>03</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/le.jfif" alt=""">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> Areluwa</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV3"><span id="fol3">Follow</span><i id="myDIV3" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>04</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/prettiest mf.jfif" alt="">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> Omeg</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV4"><span id="fol4">Follow</span><i id="myDIV4" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>05</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/𝐃𝐀𝐑𝐊 𝐒𝐏𝐈𝐑𝐈𝐓𝐒.jfif" alt="">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> Gang</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV5"><span id="fol5">Follow</span><i id="myDIV5" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tab flex">
+                            <div class="number">
+                                <b>06</b>
+                            </div>
+                            <div class="image">
+                                <img src="img/𓏲 💜 Rostro mujer 𓂃.jfif" alt="">
+                            </div>
+                            <div class="text">
+                                <small><i class="fa-solid fa-check"></i> Rollino</small>
+                            </div>
+                            <div class="Follow">
+                                <a class="bt-D bt-F" id="anV6"><span id="fol6">Follow</span><i id="myDIV6" class="myDIV fa-solid fa-check"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <h1><span> Most Popular</span> Live Stream</h1>
+                    <div class="grid2">
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/16445892_140Z_2106.w023.n001.624B.p1.624.jpg" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/arpgi.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>LunaMa</h3>
+                                    <h1>CS-GO 36 Hours Live Stream</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/for.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/le.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>KenganC</h3>
+                                    <h1>Just Talking With Fans</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/So I Hacked My Little Brother's Fortnite Account___.jfif " alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/person.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>Areluwa</h3>
+                                    <h1>Maybe Nathej Allnight'</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/prettiest mf.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/Long Straight Hair.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>GangTm</h3>
+                                    <h1>Live Streaming Till Morning</h1>
+                                </div>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/Fairy.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/arpgi.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>LunaMa</h3>
+                                    <h1>CS-GO 36 Hours Live Stream</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/cabello.jfif" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/le.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>KenganC</h3>
+                                    <h1>Just Talking With Fans</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/gime.png" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/person.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>Areluwa</h3>
+                                    <h1>Maybe Nathej Allnight'</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Live">
+                            <div class="image">
+                                <img src="img/stand.jfif"" alt="">
+                                <div class="overlay">
+                                    <h3>Live</h3>
+                                    <div class="call">
+                                        <span><i class="fa-solid fa-eye"></i> 1.2k</span>&nbsp; &nbsp;
+                                        <span><i class="fa fa-gamepad"></i> CS-GO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info flex2">
+                                <div class="image-2">
+                                    <img src="img/Long Straight Hair.jfif" alt="">
+                                </div>
+                                <div class="user">
+                                    <h3><i class="fa-solid fa-check"></i>GangTm</h3>
+                                    <h1>Live Streaming Till Morning</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">Discover All Streams</a>
+                
+                
+                </div>
+            </div>
+        </div>
+        <p class="footer"> Copyright © 2022 All rights reserved.</p>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/streams.js"></script>
+</body>
+</html>

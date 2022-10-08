@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBORG</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="preload">
+        <h1>Loading</h1>
+        <div class="loader"> </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="head" id="head">
+                <div class="image">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search">
+                    <form class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search" type="text" class="input" placeholder="Games..." autocomplete="off"/>
+                    </form>
+                    <div class="results-container">
+                        <ul class="results-list" id="list"></ul>
+                     </div>
+                </div>
+                <nav>
+                    <div class="menu-bar">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <div class="wrapper">
+                        <div class="search-input">
+                          <a href="" target="_blank" hidden></a>
+                          <input id="search" type="text" placeholder="Games.." autocomplete="off">
+                          <div class="autocom-box">
+                            <!-- here list are inserted from javascript -->
+                          </div>
+                          <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                      </div>
+                    <ul>
+                        <li><a class="active" href="">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="streams.html">Streams</a></li>
+                        <li class="roll">
+                            <a href="profile.html">Profile</a>
+                            <a href="profile.html" class="profile">
+                                <img src="img/téléchargement.jpeg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="wrapp">
+                <div class="box">
+                    <div class="petit-box">
+                        <h3>Welcome ...</h3>
+                        <h1><span>BROWSE OUR</span> POPULAR GAMES HERE</h1>
+                        <a href="#box2" id="btn">Browse Now</a>
+                    </div>
+                </div>
+                <div class="box2" id="box2">
+                    <h1 id="title"><span>Most Popular</span>Right Now</h1>
+                    <div class="grid">
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/46 Things That Show the Power of Purple ___ (1).jpeg" alt="Fortnite"
+                                    title="Fortnite">
+                                <div class="overlay">
+                                    <a href="https://store.epicgames.com/en-US/p/fortnite" target="_blank">Download</a>
+                                </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/Anomaly__ BNHA x Black! Female! Op! Reader (1).jpeg" alt="Fortnite"
+                                    title="Fortnite">
+                                    <div class="overlay">
+                                        <a href="https://the-culling.en.softonic.com/" target="_blank">Download</a>
+                                    </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>the Culling</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/téléchargement (1).jpeg" alt="Fortnite" title="Fortnite">
+                                <div class="overlay">
+                                    <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>DayZ Battle</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/Zhou Wendou _ Fragile State - Purple (2013) _ Available for Sale _ Artsy.jpeg"
+                                    alt="Fortnite" title="Fortnite">
+                                    <div class="overlay">
+                                        <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                    </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/10 of the Prettiest Purple Paint Colors to Upgrade Any Room.jpeg" alt="Fortnite"
+                                    title="Fortnite">
+                                    <div class="overlay">
+                                        <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                    </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/Game playing neon sign vector image on VectorStock.jpeg" alt="Fortnite"
+                                    title="Fortnite">
+                                    <div class="overlay">
+                                        <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                    </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/img1.jpeg" alt="Fortnite" title="Fortnite">
+                                <div class="overlay">
+                                    <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="four">
+                                <img src="img/téléchargement.png"
+                                    alt="Fortnite" title="Fortnite">
+                                    <div class="overlay">
+                                        <a href="https://dayz.en.softonic.com/download" target="_blank">Download</a>
+                                    </div>
+                            </div>
+                            <div class="flex four-Iv">
+                                <h4>Fortnite</h4>
+                                <span><i class="fa-solid fa-star"></i>4.8</span>
+                            </div>
+                            <div class="flex four-Av">
+                                <span>Sandbox</span>
+                                <span><i class="fa-solid fa-download"></i>2.3M</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="browse.html" id="btn">Discover Popular</a>
+                <div class="box3" id="box3">
+                    <h1><span>Your Gaming</span>Library</h1>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Far Cry 4 announced for Xbox One and PS4, plus last gen.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div></div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div></div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div></div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div></div>
+                        <div class="step5"><a href="https://dayz.en.softonic.com/download">Download</a></div>
+                    </div>
+                    <div class="row"><hr></div>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Call of Duty_ WW2 Wallpapers shared by Sony.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div></div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div></div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div></div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div></div>
+                        <div class="step5"><a href="https://dayz.en.softonic.com/download">Download</a></div>
+                    </div>
+                    <div class="row"><hr></div>
+                    <div class="grid-2">
+                        <div class="game">
+                            <img src="img/Just Completed Far Cry 3 What A Journey_.jpeg" alt="">
+                        </div>
+                        <div class="step1">Dota 2 <div class="grey">Sandbox</div></div>
+                        <div class="step2">Date Added <div class="grey">24/08/2036</div></div>
+                        <div class="step3">Hours Played <div class="grey">634 H 22 Mins</div></div>
+                        <div class="step4">Currently <div class="grey">Downloaded</div></div>
+                        <div class="step5"><a href="https://dayz.en.softonic.com/download">Download</a></div>
+                    </div>
+                </div>
+                <a href="profile.html" id="btn">View Your Library</a>
+                <p> Copyright © 2022 All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
